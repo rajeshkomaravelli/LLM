@@ -1,7 +1,4 @@
-
-
 from flask import Flask, render_template, request, jsonify
-import pandas as pd
 import json
 from transformers import GPT2LMHeadModel, GPT2Tokenizer, GPT2Config
 import torch
